@@ -56,7 +56,7 @@ where 'method' should be replaced with the desired method. We list the methods p
 
 + Heatmaps (heatmaps.py, average execution time: 1 minute): This script is designed to generate heatmaps visualizing neural activity (represented as z-scores) in response to CS and US across a set of neurons. The process involves aligning the average neural responses to CS in descending order. Expected Output: Heatmap graph depicting the average neural responses aligned to CS in descending order.
 
-+ Permutation test (permutation_test.py, average execution time: 1 minute): This script conducts an analysis of neuron activity in reaction to conditioned stimuli (CS) and unconditioned stimuli (US), categorizing their responses as excited, inhibited, or nonresponsive. Expected Output: Pie charts illustrating the distribution of cell responses to CS and US, along with files containing the classification of neurons based on their response types.
++ Permutation test (permutation_test.py, average execution time: 1 minute): This script conducts an analysis of neuron activity in response to CS and US, categorizing their responses as excited, inhibited, or nonresponsive. Expected Output: Pie charts illustrating the distribution of cell responses to CS and US, along with files containing the classification of neurons based on their response types.
 
 + Z-score for trial-by-trial analyses (z_score-trial_analysis.py, average execution time: 1 minute): This code operates similarly to zscore.py, performing z-score calculations for each trial as described in the manuscript. Expected Output: The z-scores obtained for each trial, saved separately for CS and US stimuli.
 
