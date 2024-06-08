@@ -74,7 +74,7 @@ where 'method' should be replaced with the desired method. We list the methods p
 
 + Shannon’s Entropy and Percentage of Persisted Responses (shannon_entropy.py, average execution time: 3 minutes): This script analyzes neuronal activity data in response to CS and US stimuli. It classifies neuronal responses for each trial using permutation tests and calculates Shannon’s entropy to quantify the variability of responses. It also calculates the percentage of persisted responses. Expected output: histograms of entropy values and the percentage of persisted responses for different activity classifications, as well as heatmaps of neuronal responses by trials.
 
-+ Tuning Curve Correlation (tuning_curve.py, average execution time: 3 minutes): This code calculates and visualizes the tuning curve correlation between different trials for CS and US. Expected output: heatmap of the tuning curve correlation matrix by trial and the mean correlation per distance between trials.
++ Tuning Curve Correlation (tuning_curve.py, average execution time: 2 minutes): This code calculates and visualizes the tuning curve correlation between different trials for CS and US. Expected output: heatmap of the tuning curve correlation matrix by trial and the mean correlation per distance between trials.
 
 
 # License
