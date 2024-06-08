@@ -52,7 +52,7 @@ python method.py
 ```
 where 'method' should be replaced with the desired method. We list the methods present here:
 
-+ Z-score (zscore.py, average execution time: 1 minute): This script processes 1-photon calcium imaging data and associated behavioral data to analyze neural activity in response to specific events (cues and consumption). The workflow is as follows: Data Preparation, Extract Event Times (specific behavioral events: cues, rewards, pokes), Identify Consumption Events, Crop and Process Traces for cue (CS - conditioned stimuli) and consumption (US - unconditioned stimuli) and Save Processed Data. Expect output: z-score files for CS and US events, as well as DF/F signal files for CS and US events.
++ Z-score (zscore.py, average execution time: 1 minute): This script processes 1-photon calcium imaging data and associated behavioral data to analyze neural activity in response to specific events (cues and consumption). The workflow is as follows: Data Preparation, Extract Event Times (specific behavioral events: cues, rewards, pokes), Identify Consumption Events, Crop and Process Traces for cue (CS - conditioned stimuli) and consumption (US - unconditioned stimuli) and Save Processed Data. Expected output: z-score files for CS and US events, as well as DF/F signal files for CS and US events.
 
 + Heatmaps (heatmaps.py, average execution time: 1 minute): This script is designed to generate heatmaps visualizing neural activity (represented as z-scores) in response to CS and US across a set of neurons. The process involves aligning the average neural responses to CS in descending order. Expected Output: Heatmap graph depicting the average neural responses aligned to CS in descending order.
 
@@ -69,6 +69,13 @@ where 'method' should be replaced with the desired method. We list the methods p
 + SVM to population decoding accuracy (svm-population.py, average execution time: 1 minute): This code is intended to utilize an SVM model for population decoding, where responses from all neurons are commbine (population vector) to differentiate between CS and US events. Expected Output: The calculation and printing of mean accuracies for comparison between actual and shuffled data
 
 + Neural trajectory (neural_trajectory.py, average execution time: 1 minute): This code calculates neural trajectories to illustrate population trial responses to CS and US events. It employs PCA to reduce data dimensionality. Expected Output: 3D plot depicting population response trajectories, showing separate trajectories for CS and US events as well as individual trials. Additionally, it calculates and displays the Euclidean distance between mean CS and US trajectories across time.
+
++ PSTH and AUC (PSTH_AUC_CS.py, average execution time: 1 minute): This code is similar to zscore.py but extends the response analysis time to 7 seconds (demonstrated here for responses to CS). Additionally, it generates a PSTH from the average activity and calculates the area under the curve (AUC) for each neuron's response within a 3-second stimulus response window. Expected output: PSTH plot of neuronal responses classified as inhibited or excited, and Excel files containing AUC values for cells classified as inhibited and excited.
+
++ Shannon’s Entropy and Percentage of Persisted Responses (shannon_entropy.py, average execution time: 3 minutes): This script analyzes neuronal activity data in response to CS and US stimuli. It classifies neuronal responses for each trial using permutation tests and calculates Shannon’s entropy to quantify the variability of responses. It also calculates the percentage of persisted responses. Expected output: histograms of entropy values and the percentage of persisted responses for different activity classifications, as well as heatmaps of neuronal responses by trials.
+
++ Tuning Curve Correlation (tuning_curve.py, average execution time: 3 minutes): This code calculates and visualizes the tuning curve correlation between different trials for CS and US. Expected output: heatmap of the tuning curve correlation matrix by trial and the mean correlation per distance between trials.
+
 
 # License
 This project is covered under the CC-BY-NC-ND-4.0.
