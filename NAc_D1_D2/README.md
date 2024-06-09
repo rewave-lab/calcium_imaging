@@ -3,7 +3,7 @@ This repository contains the codes developed for the methods used in the section
 # 1 - System Requirements
 The "caiman_environment.yaml" file lists all the packages used in the conda environment and their respective versions for data analysis.
 
-Among the Python packages used and tested on the Ubuntu 22.04 operating system, we highlight the following versions:
+Among the Python packages used and tested on the Ubuntu 20.04 operating system, we highlight the following versions:
 
 + Python: 3.10.5
 + CaImAn: 1.9.12
@@ -52,7 +52,7 @@ python method.py
 ```
 where 'method' should be replaced with the desired method. We list the methods present here:
 
-+ Alignment of activity to behavioral events and Z-score (zscore.py, average execution time: 1 minute): This script processes 1-photon calcium imaging data and associated behavioral data to analyze neural activity in response to specific events (cues and consumption). The workflow is as follows: Data Preparation, Extract Event Times (specific behavioral events: cues, rewards, pokes), Identify Consumption Events, Crop and Process Traces for cue (CS - conditioned stimuli) and consumption (US - unconditioned stimuli) and Save Processed Data. Expected output: z-score files for CS and US events, as well as DF/F signal files for CS and US events.
++ Alignment of activity to behavioral events and Z-score (zscore.py, average execution time: 1 minute): This script processes 1-photon calcium imaging data and associated behavioral data to analyze neural activity in response to specific events (cues and consumption). The workflow is as follows: data preparation, extract event times (specific behavioral events: cues, rewards, pokes), identify consumption events, crop and process traces for cue (CS - conditioned stimuli) and consumption (US - unconditioned stimuli) and save processed data. Expected output: z-score files for CS and US events, as well as DF/F signal files for CS and US events.
 
 + Heatmaps (heatmaps.py, average execution time: 1 minute): This script is designed to generate heatmaps visualizing neural activity (represented as z-scores) in response to CS and US across a set of neurons. The process involves aligning the average neural responses to CS in descending order. Expected Output: Heatmap graph depicting the average neural responses aligned to CS in descending order.
 
@@ -82,6 +82,7 @@ where 'method' should be replaced with the desired method. We list the methods p
 
 + Population vector correlation (PV_correlation.py, average execution time: 1 minute): This code calculates the population vector correlation for tracked neurons across three different days (in this example, the response activity to CS on days 1, 5, and 10 of Pavlovian conditioning for an animal). Expected output: mean correlations within the same session and across different sessions.
 
++ Cluster Analysis (clustering.py, average execution time: 3 minutes): This code performs dimensionality reduction using PCA and applies the k-means clustering algorithm to the transformed data. Expected output: Plots showing the cumulative variance explained by each PCA component (to determine the number of components for dimensionality reduction), cosine similarity and silhouette score for selecting the optimal number of clusters using k-means, t-SNE plots, and heatmaps representing the clustering results.
 
 # License
 This project is covered under the CC-BY-NC-ND-4.0.
