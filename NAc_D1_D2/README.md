@@ -52,7 +52,7 @@ python method.py
 ```
 where 'method' should be replaced with the desired method. We list the methods present here:
 
-+ Z-score (zscore.py, average execution time: 1 minute): This script processes 1-photon calcium imaging data and associated behavioral data to analyze neural activity in response to specific events (cues and consumption). The workflow is as follows: Data Preparation, Extract Event Times (specific behavioral events: cues, rewards, pokes), Identify Consumption Events, Crop and Process Traces for cue (CS - conditioned stimuli) and consumption (US - unconditioned stimuli) and Save Processed Data. Expected output: z-score files for CS and US events, as well as DF/F signal files for CS and US events.
++ Alignment of activity to behavioral events and Z-score (zscore.py, average execution time: 1 minute): This script processes 1-photon calcium imaging data and associated behavioral data to analyze neural activity in response to specific events (cues and consumption). The workflow is as follows: Data Preparation, Extract Event Times (specific behavioral events: cues, rewards, pokes), Identify Consumption Events, Crop and Process Traces for cue (CS - conditioned stimuli) and consumption (US - unconditioned stimuli) and Save Processed Data. Expected output: z-score files for CS and US events, as well as DF/F signal files for CS and US events.
 
 + Heatmaps (heatmaps.py, average execution time: 1 minute): This script is designed to generate heatmaps visualizing neural activity (represented as z-scores) in response to CS and US across a set of neurons. The process involves aligning the average neural responses to CS in descending order. Expected Output: Heatmap graph depicting the average neural responses aligned to CS in descending order.
 
