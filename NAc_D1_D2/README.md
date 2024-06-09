@@ -1,4 +1,4 @@
-This repository contains the codes developed for the methods used in the manuscript "Dynamic representation of appetitive and aversive stimuli in nucleus accumbens shell D1- and D2-medium spiny neurons", as well as example files for demonstration purposes.
+This repository contains the codes developed for the methods used in the section 'Calcium Data Analysis' of the manuscript 'Dynamic Representation of Appetitive and Aversive Stimuli in Nucleus Accumbens Shell D1- and D2-Medium Spiny Neurons.' It also includes example files for demonstration purposes.
 
 # 1 - System Requirements
 The caiman_environment.yaml file lists all the packages used in the conda environment and their respective versions for data analysis.
