@@ -76,7 +76,7 @@ where 'method' should be replaced with the desired method. We list the methods p
 
 + Tuning curve correlation (tuning_curve.py, average execution time: 2 minutes): This code calculates and visualizes the tuning curve correlation between different trials for CS and US. Expected output: heatmap of the tuning curve correlation matrix by trial and the mean correlation per distance between trials.
   
-+ Stimulus Correlation between days (stimulus_correlation_between_days, average execution timee: 1 minute): This code calculates the correlation coefficients between neuronal activities on different days (in this example, the response activity to CS on days 1, 5, and 10 of Pavlovian conditioning for an animal). Expected output: a histogram of the distribution of correlation coefficients between pairs of different days.
++ Stimulus correlation between days (stimulus_correlation_between_days, average execution timee: 1 minute): This code calculates the correlation coefficients between neuronal activities on different days (in this example, the response activity to CS on days 1, 5, and 10 of Pavlovian conditioning for an animal). Expected output: a histogram of the distribution of correlation coefficients between pairs of different days.
   
 + Correlation between CS-US stimuli at the population level (CS-US_correlation.py, average execution time: 1 minute): This code visualizes the relationship between CS and US responses. Expected output: Scatter plots with linear regression lines and histograms of the angles between nearest neighbor points.
 
