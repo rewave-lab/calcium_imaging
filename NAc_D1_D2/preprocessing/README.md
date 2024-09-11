@@ -3,11 +3,11 @@
 **1. File: std.py**
 + **Purpose:** This script is responsible for the initial preprocessing, which includes:
 
-* **Motion Correction**: Aligning video frames to reduce movement artifacts.
+**Motion Correction**: Aligning video frames to reduce movement artifacts.
 
-* **CNMFe:** Running the CNMF-e algorithm for source extraction. (For more details on using this package and appropriate documentation, please visit https://github.com/flatironinstitute/CaImAn.)
+**CNMFe:** Running the CNMF-e algorithm for source extraction. (For more details on using this package and appropriate documentation, please visit https://github.com/flatironinstitute/CaImAn.)
 
-* **DF/F Traces**: Calculating the ΔF/F traces, which represent the change in fluorescence relative to baseline.
+**DF/F Traces**: Calculating the ΔF/F traces, which represent the change in fluorescence relative to baseline.
 
 + **Important Note:** The input video for preprocessing must be in TIFF format and named MC.tiff.
 
