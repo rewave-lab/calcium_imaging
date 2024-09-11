@@ -35,7 +35,7 @@ pip install seaborn==0.11.2
 
 Note 1: Although the codes do not require extremely powerful computers, we suggest using a computer with at least 8 GB of RAM.
 
-Note 2: This environment contains the Python package CaImAn version we used for all data preprocessing steps (see "preprocessing" folder for more information). For more details on using this package and appropriate documentation, please visit https://github.com/flatironinstitute/CaImAn.
+Note 2: This environment contains the Python package CaImAn version we used for all data preprocessing steps (see "preprocessing" folder for more information). For more details on using this package and appropriate documentation, please visit https://github.com/flatironinstitute/CaImAn
 
 # 3 - Demo and Instructions for Use
 For a demonstration of the developed codes, the "demo" folder contains mainly two files:
