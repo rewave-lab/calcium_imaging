@@ -12,6 +12,7 @@
 + **Important Note:** The input video for preprocessing must be in TIFF format and named MC.tiff.
 
 + **Key Variables and Their Default Values:**
+  
 merge_thr = 0.995: The merging threshold, which is the maximum allowed correlation when combining potential cell contours.
 
 min_corr = 0.6: The minimum peak value from the correlation image, used to identify potential cells.
