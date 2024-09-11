@@ -13,9 +13,13 @@
 
 + **Key Variables and Their Default Values:**
 merge_thr = 0.995: The merging threshold, which is the maximum allowed correlation when combining potential cell contours.
+
 min_corr = 0.6: The minimum peak value from the correlation image, used to identify potential cells.
+
 min_pnr = 3.5: The minimum peak-to-noise ratio from the PNR (Peak-to-Noise Ratio) image, which helps in detecting cells.
+
 gSig = (5, 5): The width of the Gaussian kernel in 2D, approximating the size of a neuron.
+
 gSiz = (10, 10): The estimated diameter of a neuron, generally set to 4 times the Gaussian width plus 1.
 
 
