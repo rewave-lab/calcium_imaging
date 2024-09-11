@@ -31,3 +31,5 @@ gSiz = (10, 10): The estimated diameter of a neuron, generally set to 4 times th
   
 **4. File: after2.py**
 + **Purpose:** Similar to after1.py, but this script extracts and saves the ΔF/F traces for both "good" and "maybe" cells, providing a broader dataset.
+
+  
