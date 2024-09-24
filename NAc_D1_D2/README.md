@@ -8,8 +8,8 @@ Among the Python packages used and tested on the Ubuntu 20.04 operating system, 
 + Python: 3.10.5
 + CaImAn: 1.9.12
 + Numpy: 1.23.1
-+ Matplotlib: 3.5.2
-+ Seaborn: 0.11.2
++ Matplotlib: 3.8.4
++ Seaborn: 0.13.2
 + Pandas: 1.4.3
 + Scikit-learn: 1.1.1
 
@@ -29,8 +29,9 @@ conda activate caiman
 To complete the installation, please use these codes:
 
 ```python
+pip install matplotlib==3.8.4 
 pip install openpyxl==3.0.9
-pip install seaborn==0.11.2
+pip install seaborn==0.13.2
 ```
 
 Note 1: Although the codes do not require extremely powerful computers, we suggest using a computer with at least 8 GB of RAM.
